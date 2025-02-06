@@ -3,4 +3,7 @@ This repository contains cybersecurity projects conducted in my **self-built Ras
 
 
 **Projects**
-[Setting Up Parrot OS on Raspberry Pi for Cybersecurity](docs/LabSetup-Guide.md)
+<ol>
+<li>[Setting Up Parrot OS on Raspberry Pi for Cybersecurity](docs/LabSetup-Guide.md)</li>
+</ol>
+
