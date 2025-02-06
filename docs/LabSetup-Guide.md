@@ -4,7 +4,7 @@
 This project documents the installation and configuration of **Parrot Security OS** on a **Raspberry Pi 5** for use as a lightweight but powerful home / portable cybersecurity lab.
 
 ## 🖥️ Hardware Requirements
-- **Raspberry Pi 5** (4GB/8GB RAM recommended)  **I used the 8GM model** - [Found Here](https://www.bestbuy.com/site/canakit-raspberry-pi-5-starter-max-kit-8gb-turbine-white/6580288.p?skuId=6580288)
+- **Raspberry Pi 5** (4GB/8GB RAM recommended)  **I bought the 8GB model** - [Found Here](https://www.bestbuy.com/site/canakit-raspberry-pi-5-starter-max-kit-8gb-turbine-white/6580288.p?skuId=6580288)
 - **1TB SSD** (USB-C or SATA Adapter preferred for performance)  **I bought the Crucial X9 1TB External USB-C SSD** [Found Here](https://www.bestbuy.com/site/crucial-x9-1tb-external-usb-c-ssd-black/6557871.p?skuId=6557871)
 - **Official Raspberry Pi 5 Power Supply** - This is included in the Raspberry Pi 5 Kit Linked Above.
 - **Wireless Keyboard & Mouse** - **I bought the Rii RT-RKM709** It uses a single USB Dongle for both the keyboard and mouse. - [Found Here](https://www.amazon.com/Rii-RKM709-Gigahertz-Ultra-Slim-Multimedia/dp/B0DCVT6L91?crid=G9BZH65TSDRB&dib=eyJ2IjoiMSJ9.AIsrf58twlv45VrubqCnlwc85lfKNVBCjQT3f4lITroUM9ZUMS7Gbm8Xgz8Sea-l6jE_Sx5_kcKV5RaxIdDDeJWjERFkE96Ajm6DNcD1-G21PUqd1c1UXRABpIjp9hMDSetSPGCLeKa6ffDI2ngwGed-usTWD3qoM9hKyfGTEiasltLcvxEub86QWp6atJiYvAZDc4VLTPSqKK60gC_xXX6GDkBQwMY1CHFfyUKe8k0.xK6aJwi7CUKkkDXRZPAQ9Jb1GsMJKX28FhZoXHP-C8E&dib_tag=se&keywords=rii%2Brt-rkm709%2Bmini%2Bwireless%2Bkeyboard%2Band%2Bmouse%2Bcombo&qid=1738800403&sprefix=rii%2Brt-rkm709%2Bmini%2Bwireless%2Bkeyboard%2Band%2Bmouse%2Bcombo%2Caps%2C141&sr=8-1&th=1)
