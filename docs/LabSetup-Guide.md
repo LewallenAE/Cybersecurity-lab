@@ -30,8 +30,6 @@ This project documents the installation and configuration of **Parrot Security O
 5. Boot the Raspberry Pi and follow the installation steps. **Note - Mine installed automatically from the Crucial SSD when I took out the SD card containing the Raspberry Pi OS.
 6. If you continually press the space bar while the Raspberry Pi 5 loads, it will produce a boot menu and you can choose whether to boot from SD card, NVMe or external SSD etc.
 
-**NOTE** You may have to troubleshoot some issues as I had to. But the main issue I ran into was if using the Raspberry Pi to download and install by itself, I had to remove the SSD (which contains the Raspberry Pi OS) after I flashed the Parrot OS Image to the Crucial SSD.
-I also had to change some settings in Linux using the Bash command line.  See the screenshots below.
 
 **WARNING**   
 BEFORE DOING ANY CYBERSECURITY OR PENTESTING WORK MAKE SURE THAT YOUR SYSTEM IS SETUP AND SECURED. THERE SHOULD NOT BE A DEFAULT USERNAME.
