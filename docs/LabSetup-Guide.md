@@ -22,7 +22,7 @@ This project documents the installation and configuration of **Parrot Security O
 ## 🔥 Installation Steps
 
 ### 1️⃣ Flashing Parrot OS onto SSD
-1. Download **Parrot OS (ARM Edition)** from [Parrot Security OS](https://parrotsec.org/download/).
+1. Download **Parrot OS (ARM Edition)** from [Parrot Security OS](https://parrotsec.org/download/).<br>
    a. The option for the Raspberry Pi is **IoT ----> Raspberry Pi ----> Security ----> Download**
 2. Plug your SSD into your Raspberry Pi 5. You will have to use a USB to USB-C. The USB-C will plug into the Crucial SSD and the USB you will plug into the Blue (USB 3.0) port on the Raspberry Pi Computer Unit.
 3. Once downloaded use the **Raspberry Pi Imager** found in the Raspberry Pi OS menu to flash the OS image onto your SSD.
