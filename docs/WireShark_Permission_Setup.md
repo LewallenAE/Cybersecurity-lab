@@ -21,7 +21,7 @@ sudo groupadd wireshark
 
 ## 👤 Step 2: Add a User to the wireshark Group
 The following code will add the current user you are logged into to the group.<br>
-sudo usermod -aG wireshark $USER
+sudo usermod -aG wireshark $USER  (will add the current logged in user, but here you see I have just added "pi").
 ![Capture 3](screenshots/Wire_Shark_Permission_Setup/Wireshark%20Permission%20Setup%2001.png)<br><br><br>
 
 ## Step 3: Adjust Permissions for dumpcap.
