@@ -42,7 +42,7 @@
 
 
 
-### 10. Here I've gone to http://Cygwin.com. This one is showing an IPv6 address signified by the 2620:52:3:1:0:246e. Whereas an IPv4 address is as above the 52.250.42.157.<br>
+### 10. Here I've gone to http://Cygwin.com. This one is showing an IPv6 address signified by the 2620:52:3:1:0:246e. This format uses colons (:) to separate hexadecimal groups. The IPv4 as shown in previous captures uses the dots (.) to separate decimal numbers. IPv6 provides a much larger address space as compared to IPv4.<br>
 ![Capture 10](screenshots/Wireshark%20Project%2010.png)<br><br>
 
 
