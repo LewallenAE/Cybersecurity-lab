@@ -1,7 +1,8 @@
 # 🛡️ Setting Up Parrot OS for Cybersecurity Lab
 
 ## 📌 Overview
-This project documents the installation and configuration of **Parrot Security OS** on a **Raspberry Pi 5** for use as a lightweight but powerful home / portable cybersecurity lab.
+
+This project documents my process for the installation and configuration of my **Parrot Security OS** on a **Raspberry Pi 5** for use as a lightweight but powerful home / portable cybersecurity lab.
 
 ## 🖥️ Hardware Requirements
 - **Raspberry Pi 5** (4GB/8GB RAM recommended)  **I bought the 8GB model** - [Found Here](https://www.bestbuy.com/site/canakit-raspberry-pi-5-starter-max-kit-8gb-turbine-white/6580288.p?skuId=6580288)
