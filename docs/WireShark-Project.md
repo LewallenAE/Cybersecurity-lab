@@ -2,5 +2,5 @@
 
 ## Loopback<br>
 ***Loopback:lo are packets that a machine sends to itself.***<br>
-![Capture 1](docs/screenshots/Wirshark Project 01.png)
+![Capture 1](docs/screenshots/Wireshark Project 01.png)
 
