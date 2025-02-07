@@ -1,111 +1,115 @@
-# Capturing Packets In WireShark Using Various Filters
+# 📡 Capturing Packets in Wireshark Using Various Filters
 
-## Loopback<br>
-### 1. Loopback (lo) are packets that a machine sends to itself. Here I seleect eth0 for the ethernet port to capture packets from the ethernet port.<br>
-![Capture 1](screenshots/Wireshark%20Project%2001.png)<br><br>
+## 🔄 Loopback
+### 1️⃣ Loopback (lo)
+Loopback (lo) refers to packets that a machine sends to itself. Here, I selected `eth0` to capture packets from the Ethernet port.  
+![Capture 1](screenshots/Wireshark%20Project%2001.png)
 
+### 2️⃣ Starting the Capture
+Click the **Blue Shark Fin** (now grey in the black circle) to start capturing packets.  
+![Capture 2](screenshots/Wireshark%20Project%2002.png)
 
-### 2. Clicking the Blue Shark Fin (In the Black circle it is now grey) to start a capture.<br>
-![Capture 2](screenshots/Wireshark%20Project%2002.png)<br><br>
+### 3️⃣ Stopping the Capture
+Click the **Red Stop Button** (now grey) to stop capturing. If we don’t stop the capture, we can’t save it as a file.  
+![Capture 3](screenshots/Wireshark%20Project%2003.png)
 
+### 4️⃣ Saving the Capture
+Click the **Save** icon to store the captured packets as a file.  
+![Capture 4](screenshots/Wireshark%20Project%2004.png)
 
-### 3. Clicking the Red Stop Button (now grey) to stop the capture. If we do not stop the capture then we cannot save the capture as a file.<br>
-![Capture 3](screenshots/Wireshark%20Project%2003.png)<br><br>
+### 5️⃣ Opening Saved Captures
+Go to **File → Open**, choose your file, and click "Open."  
+![Capture 5](screenshots/Wireshark%20Project%2005.png)
 
+---
 
-### 4. Click the icon in the circle to save the capture as a file.<br>
-![Capture 4](screenshots/Wireshark%20Project%2004.png)<br><br>
+## 📊 Using Display Filters
 
+### 6️⃣ Filtering by Port
+Using the filter `tcp.port == 443` displays only HTTPS (encrypted HTTP) packets.  
+![Capture 6](screenshots/Wireshark%20Project%2006.png)
 
-### 5. Once saved we can go to File -> Open and then choose the file we want and click "open".<br>
-![Capture 5](screenshots/Wireshark%20Project%2005.png)<br><br>
+### 7️⃣ TCP Handshake - Client Hello
+Packet from IP `52.250.42.157` shows "Client Hello," part of the TCP handshake process.  
+![Capture 7](screenshots/Wireshark%20Project%2007.png)
 
+### 8️⃣ Identifying Traffic Sources
+Entering the IP address in a browser redirects to **DuckDuckGo**.  
+![Capture 8](screenshots/Wireshark%20Project%2008.png)
 
+### 9️⃣ Inspecting Packet Details
+Double-clicking the packet reveals source MAC (`Raspberr_81:e0:3e`), source IP, and destination IP.  
+![Capture 9](screenshots/Wireshark%20Project%2009.png)
 
-### 6. By opening our saved packet capture. We can display filter. Here we have used tcp.port==443 to only show packets that have gone through port 443 which is the HTTPS (Hypertext Transfer Protocol Secure). An encrypted version of HTTP.<br>
-![Capture 6](screenshots/Wireshark%20Project%2006.png)<br><br>
+---
 
+## 🌍 IPv6 Traffic Analysis
 
+### 🔟 Capturing IPv6 Packets
+Visiting `http://Cygwin.com` shows an IPv6 address (`2620:52:3:1:0:246e`), using colons instead of dots like IPv4.  
+![Capture 10](screenshots/Wireshark%20Project%2010.png)
 
-### 7. IP Address 52.250.42.157 which says "Client Hello" under "Info". This is a part of the handshake process for TCP protocols. As we can see it says TCP under "Protocol".<br>
-![Capture 7](screenshots/Wireshark%20Project%2007.png)<br><br>
+### 1️⃣1️⃣ Recently Opened Files
+Wireshark displays recently saved captures upon reopening.  
+![Capture 11](screenshots/Wireshark%20Project%2011.png)
 
+### 1️⃣2️⃣ Content Delivery Network (CDN)
+Capture of **TryHackMe** shows IPv6, hidden via **Cloudflare CDN** for DDoS protection.  
+![Capture 12](screenshots/Wireshark%20Project%2012.png)
 
+### 1️⃣3️⃣ Searching with IPv6
+Entering the IPv6 address only returns search results.  
+![Capture 13](screenshots/Wireshark%20Project%2013.png)
 
-### 8. After entering the IP address into the search bar, we see that it takes us to the Duck Duck Go search engine page.<br>
-![Capture 8](screenshots/Wireshark%20Project%2008.png)<br><br>
+### 1️⃣4️⃣ CDN Effects on Accessibility
+TryHackMe is referenced in search results but inaccessible directly via IP due to CDN protection.  
+![Capture 14](screenshots/Wireshark%20Project%2014.png)
 
+---
 
+## 🔍 Advanced Filtering Techniques
 
-### 9. Double clicking the packet shows more information. Here we see that it shows the Src: Raspberr_81:e0:3e which is the mac address. There is also the Src: IP address (The IP for the Raspberry Pi device) and teh Destination address. (The Duck Duck Go address).<br>
-![Capture 9](screenshots/Wireshark%20Project%2009.png)<br><br>
+### 1️⃣5️⃣ Filtering "Client Hello"
+Using `tls.handshake.type == 1` filters for **"Client Hello"** packets.  
+![Capture 15](screenshots/Wireshark%20Project%2015.png)
 
+### 1️⃣6️⃣ Combining Filters with OR
+Filter: `tls.handshake.type == 1 || ip.addr == 192.168.1.46` shows either condition.  
+![Capture 16](screenshots/Wireshark%20Project%2016.png)
 
+### 1️⃣7️⃣ Excluding Packets with NOT (!)
+Filter: `!(tls.handshake.type == 1) || ip.addr == 192.168.1.46` excludes "Client Hello" but includes specified IP.  
+![Capture 17](screenshots/Wireshark%20Project%2017.png)
 
-### 10. Here I've gone to http://Cygwin.com. This one is showing an IPv6 address signified by the 2620:52:3:1:0:246e. This format uses colons (:) to separate hexadecimal groups. The IPv4 as shown in previous captures uses the dots (.) to separate decimal numbers. IPv6 provides a much larger address space as compared to IPv4.<br>
-![Capture 10](screenshots/Wireshark%20Project%2010.png)<br><br>
+### 1️⃣8️⃣ Complex Filtering
+Filter: `!(tls.handshake.type == 1) && (tcp.port == 443 || tcp.port == 80)` filters out "Client Hello" and shows HTTP/HTTPS traffic.  
+![Capture 18](screenshots/Wireshark%20Project%2018.png)
 
+### 1️⃣9️⃣ Focusing on Port 80 (IPv6)
+Filter: `tcp.port == 80` captures HTTP traffic with IPv6 addresses.  
+![Capture 19](screenshots/Wireshark%20Project%2019.png)
 
-### 11. After closing and reopening Wireshark, you can see a list of recently saved packet captures.<br>
-![Capture 11](screenshots/Wireshark%20Project%2011.png)<br><br>
+### 2️⃣0️⃣ Port 80 (IPv4)
+Same filter as above but showing IPv4 traffic captured later.  
+![Capture 20](screenshots/Wireshark%20Project%2020.png)
 
+---
 
+## 🧪 Combining Filters for Deeper Insights
 
-### 12. This is a capture of the TryHackMe website. Here it shows yet another IPv6 address. Notice in the next picture that when entering the IPv6 address we are not able to directly go to the website. This is because the IPv6 address is hosted via CloudFlare. This is a way to "hide" the actual IP adress and is called a (CDN) Content Delivery Network. This is a part of a layered security approach.<br>
-It really helps against DDoS attacks as if someone tried to do a DDoS attack on CloudFlare it would just be shrugged off since CloudFlare can handle literally ***TeraBits*** of information and that's **PER SECOND** mind you.<br>
-![Capture 12](screenshots/Wireshark%20Project%2012.png)<br><br>
+### 2️⃣1️⃣ HTTP/HTTPS Traffic (Including Handshake)
+Shows both port 80 and 443 without excluding "Client Hello."  
+![Capture 21](screenshots/Wireshark%20Project%2021.png)
 
+### 2️⃣2️⃣ Adding IP Filters
+Filter: `(tcp.port == 80 || tcp.port == 443) && ip.addr == 192.168.1.46` filters traffic from/to a specific IP.  
+![Capture 22](screenshots/Wireshark%20Project%2022.png)
 
-
-
-### 13. I've put the IPv6 address into the search bar.<br>
-![Capture 13](screenshots/Wireshark%20Project%2013.png)<br><br>
-
-
-
-### 14. We see it only pulls up a search. But TryHackMe is referenced in two instances retrieved from the search.<br>
-![Capture 14](screenshots/Wireshark%20Project%2014.png)<br><br>
-
-
-
-### 15. tls.handshake.type==1 filters for the "Client Hello" info, meaning when we connect to the client destination.<br>
-![Capture 15](screenshots/Wireshark%20Project%2015.png)<br><br>
-
-
-
-### 16. Here I have added a secondary filter. The filter will show either the tls.handshake.type==1 or it will show ip.addr==192.168.1.46.<br>
-![Capture 16](screenshots/Wireshark%20Project%2016.png)<br><br>
-
-
-
-### 17. Adding an exclamation point (!) as in !(tls.handshake.type==1) means "Not that type of info" filtering OUT lines that have "Client Hello" in the info section. Using or we will see ip.addr==192.168.1.46 even if it should have been filtered out by the first condition. Since we use OR and not AND it displays this ip address as well as other addresses that do not meet the first condition.<br>
-![Capture 17](screenshots/Wireshark%20Project%2017.png)<br><br>
-
-
-
-### 18. Here I have used the filter !(tls.handshake.type==1) and (tcp.port==443 or tcp.port==80). This filters OUT any connections with the tls.handshake.type==1 (Client Hello) and only displays connections from either port 443 or port 80 or both (but it can't be sent from both at the same time). <br>
-![Capture 18](screenshots/Wireshark%20Project%2018.png)<br><br>
-
-
-
-### 19. This specifically filters for tcp.port==80 any connections running through port 80. This capture only has IPv6 addressess.<br>
-![Capture 19](screenshots/Wireshark%20Project%2019.png)<br><br>
-
-
-
-### 20. This is the same as 19 but it shows IPv4 addresses. It is just later on in the capture meaning the capture had been running for a longer amount of time.<br>
-![Capture 20](screenshots/Wireshark%20Project%2020.png)<br><br>
-
-
-### 21. This is similar to 18 except this filter does not FILTER OUT the tls handshake (Client Hello). However, it does show packets from port 80 or port 443.<br>
-![Capture 21](screenshots/Wireshark%20Project%2021.png)<br><br>
-
-
-
-### 22. Notice here that by adding "and (ip.addr==192.168.1.46) This displays packets coming through port 80 OR port 443 and from the ip address 192.168.1.46. If you look closely you can se that 192.168.1.46 shows in either the Source or Destination Column. You could further filter by using "and ip.src==192.168.1.46" in which it would only show if the src ip address was the one in question.<br>
-![Capture 22](screenshots/Wireshark%20Project%2022.png)<br><br>
-
-
-### 23. This is the same as 22 except we added an ! before the ip address. So what this shows is it will show packets coming either through port 80 or port 443 and is not displaying any packets that have 192.168.1.46 as a source or destination IP address.<br>
+### 2️⃣3️⃣ Excluding Specific IP
+Filter: `(tcp.port == 80 || tcp.port == 443) && !(ip.addr == 192.168.1.46)` excludes packets related to that IP.  
 ![Capture 23](screenshots/Wireshark%20Project%2023.png)
 
+---
+
+## ✅ Conclusion
+Wireshark offers powerful filtering capabilities to analyze network traffic effectively. By combining various filters, you can narrow down the data to specific protocols, IPs, and packet types, aiding in cybersecurity investigations and network troubleshooting. 🚀
