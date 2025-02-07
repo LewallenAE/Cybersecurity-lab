@@ -1,0 +1,50 @@
+# 🦈 Wireshark Permission Setup on Parrot OS
+
+This guide outlines the steps to configure Wireshark with proper permissions on Parrot OS without running it as the root user.
+
+## 📋 Prerequisites
+- Parrot OS installed
+- `sudo` privileges
+- Wireshark installed
+
+---
+
+## ⚙️ Step 1: Verify or Create the `wireshark` Group
+Check if the `wireshark` group exists:<br>
+getent group wireshark
+
+
+If it doesn't exist, create it:<br>
+sudo groupadd wireshark
+
+## 👤 Step 2: Add a User to the wireshark Group
+The following code will add the current user you are logged into to the group.<br>
+sudo usermod -aG wireshark $USER
+
+## Step 3: Adjust Permissions for dumpcap.
+sudo chgrp wireshark /usr/bin/dumpcap
+sudo chmod 750 / user/bin/dumpcap<br>
+
+**Note**<br>
+750 7 gives read, write, and execute priviledges to the Owner, 5 gives read and execute priviledges to the group, and 0 means no rights to others.
+
+sudo setcap cap_net_raw, cap_net_admin=eip /usr/bin/dumpcap
+
+## Step 4: Verify Capabilities
+getcap /usr/bin/dumpcap
+
+If the command isn't found:
+sudo find / -name getcap 2>/dev/null   (this might take a bit to complete)
+
+Add getcap to the system path:
+
+export PATH=$PATH:/usr/sbin
+echo 'export PATH=$PATH:/usr/sbin' >> ~/.bashrc
+source ~/.bashrc
+
+Verify again:
+getcap /usr/bin/dumpcap
+
+Expected output should be:
+/usr/bin/dumpcap cap_net_admin, cap_net_raw=eip
+
