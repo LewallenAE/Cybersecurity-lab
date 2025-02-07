@@ -122,4 +122,4 @@ For further assistance, my contact information is available on the front page.
 ---
 
 ![Capture 6](screenshots/Wire_Shark_Permission_Setup/Wireshark%20Permission%20Setup%2006.png)
-![Capture 7](screenshots/Wire_Shark_Permission_Setup/Wireshark%20%Permission%20Setup%2007.png)
+![Capture 7](screenshots/Wire_Shark_Permission_Setup/WireShark%20%Permission%20Setup%2007.png)
