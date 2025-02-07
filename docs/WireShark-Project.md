@@ -27,7 +27,7 @@
 
 
 
-### 7. IP Address 52.250.42.157 is says "Client Hello" under "Info". This is a part of the handshake process for TCP protocols. As we can see it says TCP under "Protocol".<br>
+### 7. IP Address 52.250.42.157 which says "Client Hello" under "Info". This is a part of the handshake process for TCP protocols. As we can see it says TCP under "Protocol".<br>
 ![Capture 7](screenshots/Wireshark%20Project%2007.png)<br><br>
 
 
