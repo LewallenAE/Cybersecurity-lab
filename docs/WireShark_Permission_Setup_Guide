@@ -13,6 +13,7 @@ This guide outlines the steps to configure Wireshark with proper permissions on 
 Check if the `wireshark` group exists:<br>
 getent group wireshark
 
+![Capture 1](screenshots/Wire_Shark_Permission_Setup/Wireshark%20Permission%20Setup%2001.png)
 
 If it doesn't exist, create it:<br>
 sudo groupadd wireshark
