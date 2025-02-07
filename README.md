@@ -13,8 +13,8 @@ I’m currently working full-time while pursuing my **Master's Degree at the Uni
 
 ## 📋 Projects
 
-1. 🔐 [**Setting Up Parrot OS on Raspberry Pi for Cybersecurity**](https://github.com/LewallenAE/Cybersecurity-lab/docs/LabSetup-Guide.md)
-2. 🌐 [**Wireshark Packet Capture and Filtering**](https://github.com/LewallenAE/Cybersecurity-lab/docs/WireShark-Project.md)
+1. 🔐 [**Setting Up Parrot OS on Raspberry Pi for Cybersecurity**](/docs/LabSetup-Guide.md)
+2. 🌐 [**Wireshark Packet Capture and Filtering**](docs/WireShark-Project.md)
 
 ---
 
