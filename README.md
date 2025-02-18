@@ -16,6 +16,7 @@ I’m currently working full-time while pursuing my **Master's Degree at the Uni
 1. 🔐 [**Setting Up Parrot OS on Raspberry Pi for Cybersecurity**](/docs/LabSetup-Guide.md)
 2. 💂‍♂️ [**Setting Up Wireshark Permissions in Linux / Parrot OS**](/docs/WireShark_Permission_Setup.md)
 3. 🌐 [**Wireshark Packet Capture and Filtering**](docs/WireShark-Project.md)
+4. 🥼 [**Microsoft 3D Viewer Vulnerability Remediation**](docs/Microsoft_3D_Viewer_Vulnerability_Remediation.md)
 
 ---
 
