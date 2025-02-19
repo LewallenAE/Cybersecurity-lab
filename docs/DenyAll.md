@@ -1,6 +1,6 @@
 # 🚫 **Deny All With AppLock Remediation** 
 
-[!Capture 1](screenshots/DenyAll/DenyAll02.png)
+![Capture 1](screenshots/DenyAll/DenyAll02.png)
 
 <#
 .SYNOPSIS
