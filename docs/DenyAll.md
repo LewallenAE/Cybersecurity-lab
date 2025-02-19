@@ -2,7 +2,7 @@
 
 ![Capture 1](screenshots/DenyAll/DenyAll02.png)
 
-'''powershell
+```powershell
 <#
 .SYNOPSIS
     This PowerShell script enforces a "deny-all, permit-by-exception" AppLocker policy to comply with STIG ID: WN10-00-000035.
@@ -87,3 +87,4 @@ Write-Host "`n[Step 6] Verifying applied AppLocker policies:"
 Get-AppLockerPolicy -Effective | Format-List
 
 Write-Host "`n✅ STIG WN10-00-000035 has been successfully applied!" -ForegroundColor Green
+```
