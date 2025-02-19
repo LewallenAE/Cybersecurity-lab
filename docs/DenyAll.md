@@ -6,11 +6,18 @@
 .SYNOPSIS
     This PowerShell script enforces a "deny-all, permit-by-exception" AppLocker policy to comply with STIG ID: WN10-00-000035.
 
+.DESCRIPTION
+    - Enables the AppLocker service if not already running.
+    - Removes all existing AppLocker rules (Deny-All by default).
+    - Allows only explicitly approved applications.
+    - Saves the policy to C:\Windows\System32\AppLockerPolicy.xml.
+    - Enforces the policy with Group Policy update.
+
 .NOTES
     Author          : Anthony Lewallen
-    LinkedIn        : linkedin.com/in/anthony-lewallen
-    GitHub          : github.com/LewallenAE/Cybersecurity-lab
-    Website         : lewallenae.github.io/Cybersecurity-lab/
+    LinkedIn        : https://www.linkedin.com/in/anthony-lewallen
+    Website         : https://lewallenae.github.io/Cybersecurity-lab/
+    GitHub          : https://github.com/LewallenAE/Cybersecurity-lab
     Date Created    : 2025-02-19
     Last Modified   : 2025-02-19
     Version         : 1.0
@@ -19,21 +26,15 @@
     STIG-ID         : WN10-00-000035
 
 .TESTED ON
-    Date(s) Tested  : 
-    Tested By       : 
-    Systems Tested  : 
-    PowerShell Ver. : 
+    Date(s) Tested  : 2025-02-19
+    Tested By       : Anthony Lewallen
+    Systems Tested  : Windows 10
+    PowerShell Ver. : 5.1+
 
 .USAGE
-    This script must be run as Administrator.
-    It will:
-    - Enable the AppLocker service if not already running.
-    - Remove all existing AppLocker rules (Deny-All by default).
-    - Allow only explicitly approved applications.
-    - Save the policy to C:\Windows\System32\AppLockerPolicy.xml.
-    - Enforce the policy with Group Policy update.
+    Run this script in an **elevated PowerShell session** to enforce the deny-all AppLocker policy.
 
-    Example syntax:
+    Example usage:
     PS C:\> .\STIG-WN10-00-000035.ps1 
 #>
 
