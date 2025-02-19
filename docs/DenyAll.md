@@ -1,4 +1,4 @@
-# 🚫 **Deny All With AppLock Remediation** 
+# 🚫 **Deny All With AppLocker Remediation** 
 
 ![Capture 1](screenshots/DenyAll/DenyAll02.png)
 
