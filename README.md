@@ -23,6 +23,7 @@ Welcome to my **Cybersecurity Lab** repository.
 7. :pencil2: [**Event Log Max Size Remediation**](/docs/EventLog.md)
 8. :camera: [**No Lock Screen Camera Remediation**](/docs/NoLockScreenCamera.md)
 9. ☎️[**Telemetry Remediation**](/docs/telemetry.md)
+10. 💻[**BitLocker Remediation**(/docs/BitLocker.md)
 ---
 
 ### 🚀 **What’s Coming Next?**
