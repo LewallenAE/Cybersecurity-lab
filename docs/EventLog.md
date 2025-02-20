@@ -3,8 +3,8 @@
 
 ### **Implemented Code**
 
-![Capture 1](screenshots/EventLog/01.png)
-![Capture 2](screenshots/EventLog/02.png)
+![Capture 1](screenshots/Event_Log/01.png)
+![Capture 2](screenshots/Event_Log/02.png)
 
 
 ```powershell
