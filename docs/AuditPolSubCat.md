@@ -3,7 +3,7 @@
 Audit logs are essential for detecting suspicious activities, troubleshooting system issues, and ensuring compliance with security policies. By **enabling audit policy subcategories**, administrators can achieve more precise logging control and ensure forensic integrity. This script enforces the required policy settings to comply with STIG ID: **WN10-SO-000030**.
 
 
-![Capture 1](screenshot/AuditPolSubCat/01.png)
+![Capture 1](screenshots/AuditPolSubCat/01.png)
 
 
 ```powershell
