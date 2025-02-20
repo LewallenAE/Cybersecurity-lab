@@ -18,6 +18,7 @@ I’m currently working full-time while pursuing my **Master's Degree at the Uni
 3. 🌐 [**Wireshark Packet Capture and Filtering**](docs/WireShark-Project.md)
 4. 🥼 [**Microsoft 3D Viewer Vulnerability Remediation**](docs/Microsoft_3D_Viewer_Vulnerability_Remediation.md)
 5. 🛑 [**Deny All Applocker Remediation**](/docs/DenyAll.md)
+6. 📇 [**User Access Management Failure Remediation**](/docs/UAMF.md)
 ---
 
 ### 🚀 **What’s Coming Next?**
