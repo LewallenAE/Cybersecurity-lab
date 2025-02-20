@@ -20,6 +20,7 @@ Welcome to my **Cybersecurity Lab** repository.
 4. 🥼 [**Microsoft 3D Viewer Vulnerability Remediation**](docs/Microsoft_3D_Viewer_Vulnerability_Remediation.md)
 5. 🛑 [**Deny All Applocker Remediation**](/docs/DenyAll.md)
 6. 📇 [**User Access Management Failure Remediation**](/docs/UAMF.md)
+7. :pencil2: [**Event Log Max Size Remediation**](/docs/Event_Log.md)
 ---
 
 ### 🚀 **What’s Coming Next?**
