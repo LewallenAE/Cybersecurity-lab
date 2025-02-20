@@ -20,13 +20,14 @@ Welcome to my **Cybersecurity Lab** repository.
 4. 🥼 [**Microsoft 3D Viewer Vulnerability Remediation**](docs/Microsoft_3D_Viewer_Vulnerability_Remediation.md)
 5. 🛑 [**Deny All Applocker Remediation**](/docs/DenyAll.md)
 6. 📇 [**User Access Management Failure Remediation**](/docs/UAMF.md)
-7. :pencil2: [**Event Log Max Size Remediation**](/docs/EventLog.md)
-8. :camera: [**No Lock Screen Camera Remediation**](/docs/NoLockScreenCamera.md)
-9. ☎️[**Telemetry Remediation**](/docs/telemetry.md)
-10. 💻[**BitLocker Remediation**](/docs/BitLocker.md)
-11. 🏧[**Convenience PIN Remediation**](/docs/ConvPin.md)
-12. 💾[**Compatible Inventory Remediation**](/docs/CompatInventory.md)
-13. 🚔[**Audit Policy Subcategories Remediation**](/docs/AuditPolSubCat.md)
+7. ✏️ [**Event Log Max Size Remediation**](/docs/EventLog.md)
+8. 📷 [**No Lock Screen Camera Remediation**](/docs/NoLockScreenCamera.md)
+9. ☎️ [**Telemetry Remediation**](/docs/telemetry.md)
+10. 💻 [**BitLocker Remediation**](/docs/BitLocker.md)
+11. 🏧 [**Convenience PIN Remediation**](/docs/ConvPin.md)
+12. 💾 [**Compatible Inventory Remediation**](/docs/CompatInventory.md)
+13. 🚔 [**Audit Policy Subcategories Remediation**](/docs/AuditPolSubCat.md)
+14. ***Coming Soon!***
 ---
 
 ### 🚀 **What’s Coming Next?**
