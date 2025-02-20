@@ -26,6 +26,7 @@ Welcome to my **Cybersecurity Lab** repository.
 10. 💻[**BitLocker Remediation**](/docs/BitLocker.md)
 11. 🏧[**Convenience PIN Remediation**](/docs/ConvPin.md)
 12. 💾[**Compatible Inventory Remediation**](/docs/CompatInventory.md)
+13. 🚔[**Audit Policy Subcategories Remediation**](/docs/AuditPolSubCat.md)
 ---
 
 ### 🚀 **What’s Coming Next?**
