@@ -21,6 +21,7 @@ Welcome to my **Cybersecurity Lab** repository.
 5. 🛑 [**Deny All Applocker Remediation**](/docs/DenyAll.md)
 6. 📇 [**User Access Management Failure Remediation**](/docs/UAMF.md)
 7. :pencil2: [**Event Log Max Size Remediation**](/docs/EventLog.md)
+8. :camera: [**No Lock Screen Camera Remediation**](/docs/NoLockScreenCamera.md)
 ---
 
 ### 🚀 **What’s Coming Next?**
