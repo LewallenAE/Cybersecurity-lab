@@ -1,4 +1,7 @@
-# **Convenience PIN Remediation**
+### **STIG Compliance: Disabling Convenience PIN Sign-in (WN10-CC-000370)**
+
+Windows convenience PIN sign-in can pose a security risk by allowing users to log in with a short and potentially weak PIN instead of a complex password. To enforce stronger authentication methods, this script disables convenience PIN sign-in and ensures compliance with STIG ID: **WN10-CC-000370**.
+
 
 ![Capture 1](screenshots/ConvPin/01.png)
 ![Capture 2](screenshots/ConvPin/02.png)
