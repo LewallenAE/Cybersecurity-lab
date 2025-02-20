@@ -24,6 +24,7 @@ Welcome to my **Cybersecurity Lab** repository.
 8. :camera: [**No Lock Screen Camera Remediation**](/docs/NoLockScreenCamera.md)
 9. ☎️[**Telemetry Remediation**](/docs/telemetry.md)
 10. 💻[**BitLocker Remediation**](/docs/BitLocker.md)
+11. 🏧[**Convenience PIN Remediation**](/docs/ConvPin.md)
 ---
 
 ### 🚀 **What’s Coming Next?**
