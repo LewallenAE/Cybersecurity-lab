@@ -2,13 +2,13 @@
 
 Welcome to my **Cybersecurity Lab** repository.
 
-I am a certified member of **ISC2™**, and the **ISC2™ Southern Arizona Chapter**, holding the **CC (Certified in Cybersecurity)** credential.
+- I am a certified member of **ISC2™**, and the **ISC2™ Southern Arizona Chapter**, holding the **CC (Certified in Cybersecurity)** credential.
 
-Currently, I am pursuing the **Security+ (Sec+) certification** *(planned for March/April 2025)* and the **OSCP (Offensive Security Certified Professional)** certification *(planned for July 2025)*.
+- Currently, I am pursuing the **Security+ (Sec+) certification** *(planned for March/April 2025)* and the **OSCP (Offensive Security Certified Professional)** certification *(planned for July 2025)*.
 
-This space showcases various **cybersecurity projects** conducted in my self-built **Raspberry Pi 5 Cyber Lab**. 
+- This space showcases various **cybersecurity projects** conducted in my self-built **Raspberry Pi 5 Cyber Lab** and through my **internship** with **Log(N)Pacific**, using tools such as **tenable, Microsoft Azure, Microsoft Sentinal, Splunk, WireShark**, and many more. 
 
-I’m currently working full-time while pursuing my **Master's Degree at the University of Pennsylvania**, with a focus on breaking into the cybersecurity profession. As my time is limited, I aim to add at least **one new project each week** to this repository.
+- I’m currently working full-time while pursuing my **Master's Degree at the University of Pennsylvania**, with a focus on breaking into the cybersecurity profession. As my time is limited, I aim to add at least **one new project each week** to this repository.
 
 ---
 
