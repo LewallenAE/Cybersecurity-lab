@@ -2,7 +2,8 @@
 
 Welcome to my **Cybersecurity Lab** repository.
 
-I am a certified member of **ISC2™**, and the **ISC2™ Southern Arizona Chapter**, holding the **CC (Certified in Cybersecurity)** credential.  
+I am a certified member of **ISC2™**, and the **ISC2™ Southern Arizona Chapter**, holding the **CC (Certified in Cybersecurity)** credential.
+
 Currently, I am pursuing the **Security+ (Sec+) certification** *(planned for March/April 2025)* and the **OSCP (Offensive Security Certified Professional)** certification *(planned for July 2025)*.
 
 This space showcases various **cybersecurity projects** conducted in my self-built **Raspberry Pi 5 Cyber Lab**. 
